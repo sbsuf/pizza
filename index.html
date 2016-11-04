@@ -10,21 +10,24 @@
   <body>
     <div class="container">
       <div class="row">
-          <div class="col-md-12">
-            <form>
-              <div class="form-group col-md-4">
+        <div class="jumbotron">
+          <h1>Please select your pizza.</h1>
+          <p>The worlds best pizza.</p>
+        </div>
+            <form id="input">
+              <div class="form-group col-md-6">
                 <label class="well">Toppings</label>
                 <select class="form-control" id="topping">
-                  <option disabled selected value> -- select an option -- </option>
-                  <option value="3">Pepperroni</option>
+                  <option value="0"> -- select an option -- </option>
+                  <option value="8">Pepperroni</option>
                   <option value="5">Cheese</option>
                   <option value="7">Susage</option>
                 </select>
               </div>
-              <div class="form-group col-md-4">
+              <div class="form-group col-md-6">
                 <label class="well">Size</label>
                 <select class="form-control" id="size">
-                  <option disabled selected value> -- select an option -- </option>
+                  <option value="0"> -- select an option -- </option>
                   <option value="3">Small</option>
                   <option value="5">Medium</option>
                   <option value="10">Large</option>
@@ -32,12 +35,10 @@
               </div>
               <button type="submit" class="btn btn-danger">Submit</button>
             </form>
-          </div>
         </div>
 
       <div class="show">
       </div>
-
     </div>
   </body>
 </html>
