@@ -25,8 +25,8 @@ $(document).ready(function() {
       var size = parseInt($("#size").val());
       var newPizza = new Pizza(top, size);
 
-        $(".show").append("<p>Your pizza price is $" + newPizza.calculate() + "</p>" + "<br>"
-        + "<p>" + "Thanks for shopping with us" + "</p>");
+        $(".show").append("<p>Your final pizza order price is $" + newPizza.calculate() + "</p>" + "<br>"
+        + "<p>" + "Thanks for shopping with us!" + "</p>");
 
 }
     event.preventDefault();
