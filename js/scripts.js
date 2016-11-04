@@ -3,6 +3,8 @@ function Pizza(topping, size) {
  this.psize = size;
 }
 
+var customer = [];
+
 Pizza.prototype.calculate = function() {
   return this.ptopping + this.psize;
 }

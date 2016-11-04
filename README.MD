@@ -12,7 +12,7 @@ _{This is the pizza order website, customer pay different price based on cusomiz
 
 ## Support and contact details
 
-_{Contact me at justinjxu@yahoo.com}_
+_{Contact me at justinjxu@yahoo.com}_         
 
 ## Technologies Used
 
