@@ -10,6 +10,15 @@
 
 _{This is the pizza order website, customer pay different price based on cusomized toppings and sizes.}_
 
+## Specifications
+_{It can display to the user the pizza size and toppings options to what kind of pizza they can order:}_
+* _Example Input: toppings Pepperroni + Size small_
+* _Example Output: 11 dollar_
+* _Example Inout: toppings Pepperroni _+ size medium_
+* _Example Output: 13 dollar_
+* _Example Input: toppings Pepperroni + size large_
+* _Example Output: 18 dollar_
+
 ## Support and contact details
 
 _{Contact me at justinjxu@yahoo.com}_         
